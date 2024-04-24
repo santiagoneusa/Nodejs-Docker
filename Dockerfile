@@ -25,9 +25,3 @@ COPY . .
 EXPOSE 8080
 
 CMD [ "node", "index.js"]
-
-const express = require('express')
-
-const app = express()
-
-const port = 80 
